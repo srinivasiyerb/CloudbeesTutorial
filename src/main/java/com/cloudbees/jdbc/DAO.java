@@ -44,7 +44,7 @@ public class DAO {
         ResultSet rst = null; 
         try{
             stmt = conn.createStatement();
-            rst = stmt.executeQuery("use countriesdb; select * from countries");
+            rst = stmt.executeQuery("select * from countriesdb.countries");
         } catch (Exception e){
             e.printStackTrace ();
         } 
@@ -55,7 +55,7 @@ public class DAO {
         ResultSet rst = null; 
         try{
             stmt = conn.createStatement();
-            rst = stmt.executeQuery("SELECT CAPITAL FROM COUNTRIES WHERE COUNTRY = '"+ country+"'");
+            rst = stmt.executeQuery("SELECT CAPITAL FROM countriesdb.COUNTRIES WHERE COUNTRY = '"+ country+"'");
         } catch (Exception e){
             e.printStackTrace ();
         } 
