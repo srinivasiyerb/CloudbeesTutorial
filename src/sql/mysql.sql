@@ -1,3 +1,5 @@
+use countriesdb;
+
 create table countries (
     id INT, 
     country VARCHAR (50),
