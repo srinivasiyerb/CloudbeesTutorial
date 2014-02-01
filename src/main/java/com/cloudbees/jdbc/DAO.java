@@ -17,7 +17,7 @@ import javax.sql.DataSource;
  */
 public class DAO {
 
-    String url = "java:comp/env/jdbc/database";
+    String url = "java:comp/env/jdbc/Countriesdb";
     Connection conn;
     Statement stmt;
 
