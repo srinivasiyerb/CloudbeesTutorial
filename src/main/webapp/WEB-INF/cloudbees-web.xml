@@ -15,7 +15,7 @@
     <resource name="jdbc/database" auth="Container" type="javax.sql.DataSource">
         <param name="username" value="devops13" />
         <param name="password" value="devops13" />
-        <param name="url" value="jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com:3306/countriesdb" />
+        <param name="url" value="jdbc:cloudbees://countriesdb" />
     <!--    <param name="driverClassName" value="org.apache.derby.jdbc.ClientDriver"/> -->
     </resource>
 </cloudbees-web-app>
