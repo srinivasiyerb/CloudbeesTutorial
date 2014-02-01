@@ -53,8 +53,8 @@ public class DAOTest {
              //       + ";create=false", connectionProps);
             // For CloudBees MySQL
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com:3306/tutorial_dev?"+
-                    "user=cb_tutorial&password=cb_tutorial");
+                    "jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com"+
+                    "user=devops13&password=devops13");
                    
             
             dao.setConnection(conn);
