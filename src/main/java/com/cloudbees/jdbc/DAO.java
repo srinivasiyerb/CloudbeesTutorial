@@ -17,7 +17,7 @@ import javax.sql.DataSource;
  */
 public class DAO {
 
-    String url = "java:comp/env/jdbc/database";
+    String url = "jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com:3306/countriesdb";
     Connection conn;
     Statement stmt;
 
