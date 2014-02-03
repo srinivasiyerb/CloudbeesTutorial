@@ -44,7 +44,7 @@ public class DAO {
         ResultSet rst = null; 
         try{
             stmt = conn.createStatement();
-            rst = stmt.executeQuery("select * from countriesdb.countries");
+            rst = stmt.executeQuery("select * from countriesdb");
         } catch (Exception e){
             e.printStackTrace ();
         } 
